@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+body {}
+
+.login-content {width:100%;height:auto;text-align:center;}
+.login-formdiv {width:40%;height:240px;text-align:left;margin:0px auto;position:absolute;left:30%;top:35%;}
+
+.layui-form-checked[lay-skin=primary] i {border-color:#2C3E50;background-color:#2C3E50;}
+.layui-form-checkbox[lay-skin=primary]:hover i {border-color:#2C3E50;}
+#loginbtn {background-color:#2C3E50;}

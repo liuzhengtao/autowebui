@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+body {}
+
+/* 头部  */
+.head {width:100%;height:auto;}
+/*.head .head-bar {width:100%;height:30px;line-height: 20px;}*/
+.head .head-nav {height:100px;padding: 0 20px;color:#fff;background-color: #2C3E50;}
+.head .head-nav .head-title {height:100px;line-height: 100px;font-size:16px;letter-spacing:1px;float:left;}
+.head .head-nav .head-userinfo {height:30px;line-height: 30px;font-size:12px;float:right;}
+.head .head-nav .head-userinfo .separator {color: gray;margin: 0 5px;}
+.head .head-nav .head-userinfo .logout-icon {display:inline-block;height:18px;line-height:18px;padding-left: 18px;cursor:pointer;background: url(../image/login/logout.png) no-repeat;}
+.head-sysdate{display: inline-block;height: 30px;line-height: 30px;color:white;margin: 0 5px; position: absolute;right: 25px;top: 30px;}
+/* 中部  */
+.middle {width:100%;overflow:hidden;}
+.middle .menu { width:220px;float:left;}
+.middle .content { width:82%;float:left;}
+.clear{ clear:both}
+/* 尾部 */
+.footer {width:100%;height:70px;text-align:center;padding: 30px 0;line-height: 30px;font-weight: 300;color:#666;}
+.footer .footer-main {width: 1140px;position: relative;margin: 0 auto;}
+
+
+/* 面包屑 */
+.breadcrumb {height:25px;line-height:25px;margin-top:10px;}
+
+/* 按钮、输入框 */
+.input-a {width:100px;}
+.input-b {width:150px;}
+.input-c {width:200px;}
+.input-d {width:250px;}
+.input-e {width:300px;}
+.input-f {width:400px;}
+.input-g {width:500px;}
+.input-noborder,.input-noborder:hover {border-color:#fff;}
+
+/* 数据表格 */
+.data_tb {table-layout:fixed;}
+.data_tb thead tr {height:50px;}
+.data_tb thead tr,.data_tb thead tr:hover {background-color: #009688;}
+.data_tb thead tr th {text-align:center;color: #ffffff;font-weight:normal;font-size: 16px;}
+.data_tb .sel_data_tr {cursor:default;}
+.data_tb .selected_tr,.data_tb .selected_tr:hover {background-color:rgba(0, 150, 136, 0.09);font-weight:normal;}
+.sub_tr_datatb {table-layout:fixed;}
+.sub_tr_datatb tr,.sub_tr_datatb tr:hover {background-color: #ffffff;}
+.sub_tr_datatb tr th {background-color: #eeeeee;text-align:center;color: #000;font-weight:normal;font-size: 14px;}
+
+/* layui */
+.layui-form-label {font-size:13px;font-weight:bold; }
+.checkbox-input-block {height:24px;}
+.layui-elem-field {border: 0px solid #e2e2e2;margin-left:0px;margin-right:0px;}
+.layui-field-box {padding: 10px 0px;}
+.layui-tab {margin-top: 10px;margin-bottom: 2px;}
+.layui-tab-content {border: 1px solid #e2e2e2;border-top-color:#fff;}
+
+/* dialog */
+.dialog-content {width:auto;height:auto;padding:0px 0px;}
+.dialog-content .dialog-middle {height:auto;padding:10px 10px 49px 10px;}
+.dialog-content .dialog-bottom {text-align:center;padding:5px 0px;border-top:1px solid #eee;position:fixed;bottom:0px;width:100%;background-color:#F8F8F8;}
+
+/*  */
+.red {color:#ff0000;padding-left:5px;}
+
+/*  */
+.noauth-content {width:100%;text-align:center;}
+.noauth-content .noauth-tips {font-size:25px;position:absolute;left:25%;top:45%;}
+.noauth-content .noauth-tips .tips_span {display:inline-block;height:40px;line-height:40px;}
+.noauth-content .noauth-tips .tips_span .over_time {color:#ff0000;font-size:27px;font-weight:bold;}
+.noauth-content .noauth-tips .tips_span a {padding-left:10px;color:#056511;}
+
+/* 返回顶部 */
+.gototop {position:fixed;width:50px;height:50px;line-height:50px;border-radius:2px;text-align:center;bottom:12px;right:12px;display:none;z-index:2017;cursor:pointer;color:#fff;background-color:#2C3E50;}
